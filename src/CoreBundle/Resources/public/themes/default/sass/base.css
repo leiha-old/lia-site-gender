@@ -1,0 +1,74 @@
+body {
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fceeff;
+}
+
+#site-container {
+    background-color: white;
+    border: 1px solid #950682;
+    border-radius: 20px;
+    margin: auto;
+    width: 900px;
+    padding-bottom: 10px;
+}
+
+#site-header {
+    /*background-image: url("../images/header-bg.jpg");*/
+    border-radius: 20px 20px 0 0;
+    width: 900px;
+    height: 147px;
+}
+
+#site-footer {
+    clear: both;
+}
+
+#site-body {
+    clear: both;
+    position: relative;
+    background-color: white;
+    border: 1px solid #f0a5e6;
+    border-radius: 20px;
+    margin: 0 10px 0 10px;
+    height: 500px;
+    padding: 25px 15px;
+}
+
+#site-body .deco2 {
+    bottom: -7px;
+    right: -5px;
+    position: absolute;
+    background-image: url("../images/flowers/br.png");
+    width: 45px;
+    height: 23px;
+}
+
+#site-content {
+    float: left;
+    /* background-color: #FFFFFF;
+    border: 1px dashed #e8cdf0;
+    border-radius:20px;*/
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#site-side {
+    clear: both;
+    z-index: 1;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #f0a5e6;
+    border-left-color: #fefbff;
+    z-index: 1;
+    border-radius: 0 60px 20px 0;
+    min-width: 50px;
+    min-height: 250px;
+    top: 25px;
+    right: -52px;
+}
+
+#site-auth {
+    white-space: nowrap;
+}

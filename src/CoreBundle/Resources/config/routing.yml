@@ -1,0 +1,8 @@
+_lia_site_gender:
+    resource: "@LiaCmsCoreBundle/Controller/HomeController.php"
+    type:     annotation
+    prefix:   /
+
+
+lia_cms:
+    resource: "@LiaCmsCoreBundle/Resources/config/routing.yml"

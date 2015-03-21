@@ -1,0 +1,155 @@
+@import "../config";
+
+#site-menu-container {
+  position: relative;
+  margin-top: -40px
+}
+
+#site-menu-container .deco1 {
+  float: left;
+  position: relative;
+  top: -28px;
+  left: 3px;
+}
+
+#site-menu-container .deco2 {
+  position: relative;
+  background-image: url("../images/flowers/tr.png");
+  width: 45px;
+  height: 23px;
+}
+
+/*  Menu TL  */
+
+#site-menu-tl-side {
+  z-index: 1;
+  position: absolute;
+  background-color: $background2;
+  border: 1px solid $border-color1;
+  border-bottom-color: $border-color2;
+  border-radius: 60px 60px 0 0;
+  top: -22px;
+  left: 20px;
+  min-width: $menu-tl-side-min-width;
+  min-height: 20px;
+}
+
+#site-menu-tl-container {
+  float: left;
+  z-index: 1;
+  position: relative;
+  background-color: $background2;
+  border: 1px solid $border-color1;
+  border-bottom-color: $border-color2;
+  border-radius: 20px 20px 0 0;
+  top: 1px;
+  left: 75px;
+  min-width: $menu-tl-min-width;
+  min-height: 30px;
+}
+
+#site-menu-tl-container .deco1 {
+  background-image: url("../images/menu/tl.png");
+  width: 32px;
+  height: 59px;
+  left: -35px;
+}
+
+#site-menu-tl-container .deco2 {
+  float: right;
+  top: -8px;
+  right: -6px;
+}
+
+/*  Menu TR  */
+
+#site-menu-tr {
+  margin: 10px 15px 0;
+}
+
+#site-menu-tr-side {
+  z-index: 1;
+  position: absolute;
+  background-color: $background2;
+  border: 1px solid $border-color1;
+  border-bottom-color: $border-color2;
+  border-radius: 60px 60px 0 0;
+  top: -22px;
+  left: 20px;
+  min-width: $menu-tr-side-min-width;
+  min-height: 20px;
+}
+
+#site-menu-tr-container {
+  float: right;
+  z-index: 1;
+  position: relative;
+  background-color: $background2;
+  border: 1px solid $border-color1;
+  border-bottom-color: $border-color2;
+  border-radius: 20px 20px 0 0;
+  top: 1px;
+  right: 75px;
+  min-width: $menu-tr-min-width;
+  min-height: 30px;
+}
+
+#site-menu-tr-container .deco1 {
+  background-image: url("../images/menu/tr.png");
+  top: -28px;
+  left: -35px;
+  width: 32px;
+  height: 59px;
+}
+
+#site-menu-tr-container .deco2 {
+  float: right;
+  top: -8px;
+  right: -6px;
+}
+
+/*  Menu ML  */
+
+#site-menu-ml-side {
+  background-color: $background2;
+  position: absolute;
+  border: 1px solid $border-color1;
+  border-right-color: $border-color2;
+  z-index: 2;
+  border-radius: 60px 0px 0 60px;
+  top: 20px;
+  left: -22px;
+  min-width: 20px;
+  min-height: $menu-ml-side-min-height;
+}
+
+#site-menu-ml-container {
+  background-color: $background2;
+  position: absolute;
+  border: 1px solid $border-color1;
+  border-right-color: $border-color2;
+  z-index: 1;
+  border-radius: 20px 0px 0 20px;
+  top: 75px;
+  left: -41px;
+  min-width: 50px;
+  min-height: $menu-ml-min-height;
+}
+
+#site-menu-ml-container .deco1 {
+  background-image: url("../images/menu/ml.png");
+  width: 41px;
+  height: 54px;
+  top: -54px;
+  left: 5px;
+}
+
+#site-menu-ml-container .deco2 {
+  bottom: -7px;
+  left: -5px;
+  position: absolute;
+  background-image: url("../images/flowers/bl.png");
+  width: 45px;
+  height: 23px;
+}
+

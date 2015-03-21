@@ -1,0 +1,25 @@
+$border-color1: #F0A5E6;
+// Contour intérieur
+$border-color2: #FEFBFF;
+// Contour intérieur séparateur des menus / cotés (sides) du corps
+$border-color3: #950682;
+// Contour extérieur
+
+$background0: #fceeff;
+// Fond de la page
+$background1: #FFFFFF;
+// Fond du corps (contenu)
+$background2: #FFFFFF;
+// Fond des menus / cotés (sides)
+$background3: #FFFFFF;
+// Fond externe (1er contour)
+
+$site-width: 900px;
+$site-header-height: 147px;
+$site-side-min-height: 250px;
+$menu-tr-min-width: 200px;
+$menu-tl-min-width: 200px;
+$menu-ml-min-height: 150px;
+$menu-tr-side-min-width: $menu-tr-min-width  - 54px;
+$menu-tl-side-min-width: $menu-tl-min-width  - 54px;
+$menu-ml-side-min-height: $menu-ml-min-height - 32px;
